@@ -78,7 +78,7 @@ const Navbar = () => {
               }}
               className="text-2xl font-bold font-plus-jakarta"
             >
-              <span className="gradient-text text-glow">Wildan</span>
+              <span className="gradient-text">Wildan</span>
               <span className="text-white ml-1">Wigenta</span>
             </a>
           </motion.div>
