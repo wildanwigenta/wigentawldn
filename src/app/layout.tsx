@@ -24,9 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${plusJakarta.variable} antialiased`}
-      >
+      <body className={`${inter.variable} ${plusJakarta.variable} antialiased`}>
         {children}
       </body>
     </html>
