@@ -45,7 +45,8 @@ const About = () => {
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden card-glow relative">
                 {/* Placeholder for actual photo */}
                 <div className="w-full h-full bg-gradient-to-br from-pink-500/20 to-cyan-500/20 flex items-center justify-center">
-                  <div className="text-6xl gradient-text font-bold">WW</div>
+                  {/* <div className="text-6xl gradient-text font-bold">ww</div> */}
+                  <Image src="/profile.jpg" width={100} height={100} alt="Profile" />
                 </div>
                 
                 {/* Overlay Effect */}
