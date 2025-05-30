@@ -43,12 +43,14 @@ const About = () => {
             <div className="relative">
               {/* Photo Container */}
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden card-glow relative">
-                {/* Placeholder for actual photo */}
-                <div className="w-full h-full bg-gradient-to-br from-pink-500/20 to-cyan-500/20 flex items-center justify-center">
-                  {/* <div className="text-6xl gradient-text font-bold">ww</div> */}
-                  <Image src="/profile.jpg" width={100} height={100} alt="Profile" />
-                </div>
-                
+                {/* Actual photo fills the container */}
+                <Image
+                  src="/profile.jpg"
+                  alt="Profile"
+                  fill
+                  className="object-cover"
+                />
+
                 {/* Overlay Effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </div>
