@@ -61,7 +61,7 @@ const Navbar = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <motion.div
@@ -78,7 +78,7 @@ const Navbar = () => {
               }}
               className="text-2xl font-bold font-plus-jakarta"
             >
-              <span className="gradient-text">Wildan</span>
+              <span className="gradient-text ml-4">Wildan</span>
               <span className="text-white ml-1">Wigenta</span>
             </a>
           </motion.div>
@@ -88,7 +88,7 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="hidden lg:flex items-center space-x-8"
+            className="hidden lg:flex items-center gap-x-10"
           >
             {navItems.map((item, index) => (
               <motion.a
