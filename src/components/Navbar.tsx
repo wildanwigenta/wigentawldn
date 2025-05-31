@@ -76,9 +76,9 @@ const Navbar = () => {
                 e.preventDefault();
                 scrollToSection('#home');
               }}
-              className="text-2xl font-bold font-plus-jakarta"
+              className="text-2xl font-bold font-plus-jakarta ml-2 sm:ml-4 lg:ml-6 "
             >
-              <span className="gradient-text ml-4">Wildan</span>
+              <span className="gradient-text">Wildan</span>
               <span className="text-white ml-1">Wigenta</span>
             </a>
           </motion.div>
@@ -127,8 +127,8 @@ const Navbar = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="hidden lg:block"
           >
-            <button className="btn-primary px-6 py-2 rounded-full flex items-center gap-2 text-sm hover:scale-105 transition-transform">
-              <Download size={16} />
+            <button className="btn-primary px-6 py-2 lg:px-6 lg:py-2.5 rounded-full flex items-center gap-2 text-sm hover:scale-105 transition-transform">
+            <Download size={16} />
               Download CV
             </button>
           </motion.div>
@@ -184,7 +184,7 @@ const Navbar = () => {
               transition={{ duration: 0.3, delay: isOpen ? navItems.length * 0.1 : 0 }}
               className="px-4 pt-4 border-t border-white/10"
             >
-              <button className="w-full btn-primary px-6 py-3 rounded-full flex items-center justify-center gap-2 text-sm hover:scale-105 transition-transform">
+              <button className="w-full btn-primary px-6 py-3 rounded-full flex items-center justify-center gap-2 text-sm hover:scale-105 transition-transform lg:px-8 lg:py-4">
                 <Download size={16} />
                 Download CV
               </button>
