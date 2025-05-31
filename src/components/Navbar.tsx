@@ -61,14 +61,14 @@ const Navbar = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-6 lg:px-10">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-w-max ">
+        <div className="flex items-center justify-between h-16 lg:h-20 w-full">
           {/* Logo */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex items-center"
+            className="flex items-center pl-4 lg:pl-0"
           >
             <a
               href="#home"
@@ -76,7 +76,7 @@ const Navbar = () => {
                 e.preventDefault();
                 scrollToSection('#home');
               }}
-              className="text-2xl font-bold font-plus-jakarta ml-2 sm:ml-4 lg:ml-6 "
+              className="text-2xl font-bold font-plus-jakarta"
             >
               <span className="gradient-text">Wildan</span>
               <span className="text-white ml-1">Wigenta</span>
