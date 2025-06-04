@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Dark theme colors */
+  --background: #0a0a0f;
+  --foreground: #ffffff;
+  --primary: #1e1b4b; /* Deep blue */
+  --secondary: #581c87; /* Purple */
+  --accent-cyan: #06b6d4; /* Neon cyan */
+  --accent-pink: #ec4899; /* Neon pink */
+  --card-bg: #1a1a2e;
+  --border: #2d2d44;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-pink: var(--accent-pink);
+  --color-card-bg: var(--card-bg);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-plus-jakarta);
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, var(--background) 0%, #0f0f23 50%, #1a1a2e 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+/* Glow effects */
+.glow {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+}
+
+.glow-pink {
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(88, 28, 135, 0.4);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, var(--accent-cyan), var(--accent-pink));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, var(--accent-pink), var(--accent-cyan));
 }
