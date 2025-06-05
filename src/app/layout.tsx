@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Wildan Wigenta" }],
   viewport: "width=device-width, initial-scale=1",
   icons: {
-    icon: "/logo_ic.png",
+    icon: "/logo.png",
   },
 };
 

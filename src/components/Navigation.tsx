@@ -76,8 +76,8 @@ const Navigation = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-lg glow">
-                WW
+              <div className="w-10 h-10 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center glow p-1">
+                <img src="/logo.png" alt="" />
               </div>
               <span className="ml-3 text-xl font-bold text-foreground font-[family-name:var(--font-plus-jakarta)] hidden sm:block">
                 Wildan Wigenta
