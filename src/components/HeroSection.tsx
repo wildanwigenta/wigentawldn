@@ -89,10 +89,10 @@ const HeroSection = () => {
             <a href="https://github.com/wildanwigenta" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
               <Github size={24} className="text-gray-400 group-hover:text-accent-cyan transition-colors" />
             </a>
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-pink transition-all duration-300 hover:glow-pink group">
+            <a href="https://www.linkedin.com/in/wildan-wigenta-28a853274/" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-pink transition-all duration-300 hover:glow-pink group">
               <Linkedin size={24} className="text-gray-400 group-hover:text-accent-pink transition-colors" />
             </a>
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
+            <a href="mailto:wildanwigenta52@gmail.com" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
               <Mail size={24} className="text-gray-400 group-hover:text-accent-cyan transition-colors" />
             </a>
           </motion.div>
