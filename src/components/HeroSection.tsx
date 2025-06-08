@@ -61,7 +61,7 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
           >
             <button className="group relative px-8 py-4 bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 glow hover:shadow-2xl">
-              <a href="/Wildan_Wigenta-CV.pdf">
+              <a href="/Wildan_Wigenta-CV.pdf" target="_blank">
               <span className="flex items-center gap-2">
                 <Download size={20} />
                 Download CV
