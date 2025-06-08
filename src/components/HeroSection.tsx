@@ -86,7 +86,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex gap-6 justify-center lg:justify-start"
           >
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
+            <a href="https://github.com/wildanwigenta" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
               <Github size={24} className="text-gray-400 group-hover:text-accent-cyan transition-colors" />
             </a>
             <a href="#" className="p-3 rounded-full border border-border hover:border-accent-pink transition-all duration-300 hover:glow-pink group">
