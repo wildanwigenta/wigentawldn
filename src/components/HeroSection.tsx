@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Download, Mail, Github, Linkedin } from 'lucide-react';
 import Image from 'next/image';
 
+
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
@@ -59,19 +60,23 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
           >
+            <a href="/Wildan_Wigenta-CV.pdf" target="_blank">
             <button className="group relative px-8 py-4 bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 glow hover:shadow-2xl">
               <span className="flex items-center gap-2">
                 <Download size={20} />
                 Download CV
               </span>
             </button>
+            </a>
             
+            <a href="mailto:wildanwigenta52@gmail.com" target="_blank">
             <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
               <span className="flex items-center gap-2">
                 <Mail size={20} />
                 Contact Me
               </span>
             </button>
+            </a>
           </motion.div>
           
           {/* Social Links */}
@@ -81,13 +86,13 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex gap-6 justify-center lg:justify-start"
           >
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
+            <a href="https://github.com/wildanwigenta" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
               <Github size={24} className="text-gray-400 group-hover:text-accent-cyan transition-colors" />
             </a>
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-pink transition-all duration-300 hover:glow-pink group">
+            <a href="https://www.linkedin.com/in/wildan-wigenta-28a853274/" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-pink transition-all duration-300 hover:glow-pink group">
               <Linkedin size={24} className="text-gray-400 group-hover:text-accent-pink transition-colors" />
             </a>
-            <a href="#" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
+            <a href="mailto:wildanwigenta52@gmail.com" target="_blank" className="p-3 rounded-full border border-border hover:border-accent-cyan transition-all duration-300 hover:glow group">
               <Mail size={24} className="text-gray-400 group-hover:text-accent-cyan transition-colors" />
             </a>
           </motion.div>
@@ -104,7 +109,7 @@ const HeroSection = () => {
             {/* Placeholder for illustration - you can replace with actual image */}
             <div className="w-full h-full bg-gradient-to-br from-accent-cyan/20 to-accent-pink/20 rounded-full flex items-center justify-center glow-purple">
               <div className="w-3/4 h-3/4 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-                <span className="text-6xl font-bold text-accent-cyan">WW</span>
+                <img src="/hero.png" alt="" />
               </div>
             </div>
             
