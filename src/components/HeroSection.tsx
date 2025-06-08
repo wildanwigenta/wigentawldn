@@ -109,7 +109,7 @@ const HeroSection = () => {
             {/* Placeholder for illustration - you can replace with actual image */}
             <div className="w-full h-full bg-gradient-to-br from-accent-cyan/20 to-accent-pink/20 rounded-full flex items-center justify-center glow-purple">
               <div className="w-3/4 h-3/4 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
-                <span className="text-6xl font-bold text-accent-cyan">WW</span>
+                <img src="/hero.png" alt="" />
               </div>
             </div>
             
