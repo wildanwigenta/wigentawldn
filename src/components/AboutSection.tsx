@@ -75,28 +75,28 @@ const AboutSection = () => {
               </h3>
               
               <p className="text-gray-300 leading-relaxed text-lg">
-                I'm a passionate Computer Science student with a deep love for creating digital experiences that matter. 
-                My journey in technology began with curiosity and has evolved into a dedicated pursuit of excellence 
-                in both web development and graphic design.
+                I am a Computer Science student with a strong passion for creating meaningful digital experiences. 
+                My journey in the world of technology began with curiosity and has grown into a dedicated pursuit of excellence in 
+                web development and graphic design.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                As a <span className="text-accent-cyan font-semibold">Web Developer</span>, I specialize in building 
-                modern, responsive applications using cutting-edge technologies like React, Next.js, and Tailwind CSS. 
-                I believe in writing clean, maintainable code that not only functions flawlessly but also provides 
-                exceptional user experiences.
+                As a <span className="text-accent-cyan font-semibold">Web Developer</span>, I specialize in building modern, 
+                responsive applications using technologies such as React, Next.js, Laravel, and Tailwind CSS. 
+                I believe in writing clean, maintainable code that not only performs well but also delivers an 
+                outstanding user experience.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                My expertise in <span className="text-accent-pink font-semibold">Graphic Design</span> complements 
-                my development skills perfectly. I create visually stunning designs using tools like Figma, Adobe Photoshop, 
-                and CorelDraw, ensuring that every project I work on is both functional and aesthetically pleasing.
+                My skill in <span className="text-accent-pink font-semibold">Graphic Design</span> perfectly complement my development expertise.
+                By leveraging tools like Figma, Adobe Photoshop, and CorelDRAW, I design visually compelling interfaces 
+                that are both functional and aesthetically pleasing.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                I'm constantly learning and staying up-to-date with the latest trends and technologies in the industry. 
-                My goal is to bridge the gap between design and development, creating seamless digital solutions that 
-                exceed expectations.
+                I'm committed to continuous learning and staying up-to-date with the latest technologies and industry trends.
+                My goal is to bridge the gap between design and development, creating seamless, innovative digital solutions 
+                that exceed expectations.
               </p>
             </div>
             
@@ -106,7 +106,7 @@ const AboutSection = () => {
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-4 bg-card-bg/50 rounded-lg border border-border hover:border-accent-cyan transition-all duration-300"
               >
-                <div className="text-3xl font-bold text-accent-cyan mb-2">2+</div>
+                <div className="text-3xl font-bold text-accent-cyan mb-2">5+</div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </motion.div>
               
@@ -114,7 +114,7 @@ const AboutSection = () => {
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-4 bg-card-bg/50 rounded-lg border border-border hover:border-accent-pink transition-all duration-300"
               >
-                <div className="text-3xl font-bold text-accent-pink mb-2">10+</div>
+                <div className="text-3xl font-bold text-accent-pink mb-2">30+</div>
                 <div className="text-gray-400 text-sm">Projects Completed</div>
               </motion.div>
             </div>
