@@ -69,7 +69,7 @@ const HeroSection = () => {
             </button>
             </a>
             
-            <a href="mailto:wildanwigenta52@gmail.com">
+            <a href="mailto:wildanwigenta52@gmail.com" target="_blank">
             <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
               <span className="flex items-center gap-2">
                 <Mail size={20} />
