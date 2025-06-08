@@ -40,14 +40,11 @@ const AboutSection = () => {
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-4 border-gradient-to-br from-accent-cyan to-accent-pink glow-purple">
                 {/* Placeholder for actual photo */}
                 <div className="w-full h-full bg-gradient-to-br from-card-bg to-primary flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-white">WW</span>
-                    </div>
-                    <p className="text-gray-400 text-sm">Your Photo Here</p>
-                  </div>
+                    <Image src="/wildan_crop.png" alt="Profile" width={170} height={170} className="absolute z-10 object-contain" />
+                    <div className="w-48 h-48 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-full mx-auto mb-4 flex items-center justify-center"></div>
                 </div>
               </div>
+
               
               {/* Floating decorative elements */}
               <motion.div
