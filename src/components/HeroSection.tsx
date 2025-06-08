@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Download, Mail, Github, Linkedin } from 'lucide-react';
 import Image from 'next/image';
 
+
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
