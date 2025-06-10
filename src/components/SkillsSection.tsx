@@ -42,13 +42,13 @@ const SkillsSection = () => {
         <div className="relative bg-card-bg/80 backdrop-blur-sm border border-border rounded-xl p-6 transition-all duration-300 group-hover:border-accent-cyan group-hover:shadow-2xl">
           {/* Icon */}
           <div className="mb-4 flex justify-center">
-            <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${skill.color} flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300`}>
+            <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${skill.color} flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 z-10 relative`}>
               {skill.icon}
             </div>
           </div>
           
           {/* Skill name */}
-          <h3 className="text-center font-semibold text-lg text-foreground group-hover:text-accent-cyan transition-colors duration-300">
+          <h3 className="text-center font-semibold text-lg text-foreground transition-colors duration-300 z-10 relative">
             {skill.name}
           </h3>
           
