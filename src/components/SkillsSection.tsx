@@ -150,9 +150,9 @@ const SkillsSection = () => {
               Always Learning, Always Growing
             </h4>
             <p className="text-gray-300 leading-relaxed">
-              Technology evolves rapidly, and so do I. I'm constantly exploring new frameworks, tools, and design trends 
-              to stay at the forefront of web development and design. My passion for learning drives me to experiment 
-              with emerging technologies and incorporate them into my workflow.
+               Technology evolves rapidly and so do I. I actively stay ahead of the curve by exploring the latest frameworks,
+               tools, and design trends in web development. My deep passion for continuous learning fuels a mindset of experimentation, 
+               allowing me to integrate emerging technologies seamlessly into my development and design processes.
             </p>
           </div>
         </motion.div>
