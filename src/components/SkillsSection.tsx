@@ -1,24 +1,26 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Palette, Database, Globe, Figma, Image as ImageIcon } from 'lucide-react';
+import { Code, Globe, Palette, Zap, Database, Rocket, Wind, PenTool, Sparkles, Image, Brush } from 'lucide-react';
 
 const SkillsSection = () => {
   const programmingSkills = [
-    { name: 'HTML', icon: '🌐', color: 'from-orange-500 to-red-500' },
-    { name: 'CSS', icon: '🎨', color: 'from-blue-500 to-cyan-500' },
-    { name: 'JavaScript', icon: '⚡', color: 'from-yellow-500 to-orange-500' },
-    { name: 'MySQL', icon: '🗄️', color: 'from-blue-600 to-blue-800' },
-    { name: 'Laravel', icon: '🚀', color: 'from-red-500 to-pink-500' },
-    { name: 'Tailwind', icon: '💨', color: 'from-cyan-400 to-blue-500' },
+    { name: 'HTML', icon: <Globe size={24} />, color: 'from-orange-500 to-red-500' },
+    { name: 'CSS', icon: <Palette size={24} />, color: 'from-blue-500 to-cyan-500' },
+    { name: 'JavaScript', icon: <Zap size={24} />, color: 'from-yellow-500 to-orange-500' },
+    { name: 'MySQL', icon: <Database size={24} />, color: 'from-blue-600 to-blue-800' },
+    { name: 'Laravel', icon: <Rocket size={24} />, color: 'from-red-500 to-pink-500' },
+    { name: 'Tailwind', icon: <Wind size={24} />, color: 'from-cyan-400 to-blue-500' },
   ];
   
+  
   const designSkills = [
-    { name: 'Figma', icon: '🎯', color: 'from-purple-500 to-pink-500' },
-    { name: 'CorelDraw', icon: '✨', color: 'from-green-500 to-teal-500' },
-    { name: 'Photoshop', icon: '🖼️', color: 'from-blue-600 to-purple-600' },
-    { name: 'Canva', icon: '🎨', color: 'from-pink-500 to-rose-500' },
+    { name: 'Figma', icon: <PenTool size={24} />, color: 'from-purple-500 to-pink-500' },
+    { name: 'CorelDraw', icon: <Sparkles size={24} />, color: 'from-green-500 to-teal-500' },
+    { name: 'Photoshop', icon: <Image size={24} />, color: 'from-blue-600 to-purple-600' },
+    { name: 'Canva', icon: <Brush size={24} />, color: 'from-pink-500 to-rose-500' },
   ];
+  
   
   const SkillCard = ({ skill, index, delay }: { skill: any, index: number, delay: number }) => {
     return (
