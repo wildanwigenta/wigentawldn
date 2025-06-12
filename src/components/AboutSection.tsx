@@ -71,7 +71,7 @@ const AboutSection = () => {
           >
             <div className="space-y-4">
               <h3 className="text-2xl sm:text-3xl font-bold text-accent-cyan font-[family-name:var(--font-plus-jakarta)]">
-                Hello, I'm Wildan Wigenta
+                Hello, I am Wildan Wigenta
               </h3>
               
               <p className="text-gray-300 leading-relaxed text-lg">
@@ -94,7 +94,7 @@ const AboutSection = () => {
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                I'm committed to continuous learning and staying up-to-date with the latest technologies and industry trends.
+                I am committed to continuous learning and staying up-to-date with the latest technologies and industry trends.
                 My goal is to bridge the gap between design and development, creating seamless, innovative digital solutions 
                 that exceed expectations.
               </p>

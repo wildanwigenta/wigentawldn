@@ -120,7 +120,7 @@ const ContactSection = () => {
             Get In <span className="bg-gradient-to-r from-accent-cyan to-accent-pink bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
-            Have a project in mind or want to collaborate? I'd love to hear from you. Let's create something amazing together!
+            Have a project in mind or want to collaborate? I had love to hear from you. Lets create something amazing together!
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-accent-cyan to-accent-pink mx-auto rounded-full"></div>
         </motion.div>
@@ -136,10 +136,10 @@ const ContactSection = () => {
           >
             <div>
               <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-accent-cyan font-[family-name:var(--font-plus-jakarta)]">
-                Let's Connect
+                Lets Connect
               </h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                I'm always open to discussing new opportunities, creative projects, or just having a friendly chat about technology and design. Feel free to reach out through any of the channels below.
+                I am always open to discussing new opportunities, creative projects, or just having a friendly chat about technology and design. Feel free to reach out through any of the channels below.
               </p>
             </div>
             
@@ -227,7 +227,7 @@ const ContactSection = () => {
                   animate={{ opacity: 1, y: 0 }}
                   className="mb-6 p-4 bg-green-500/20 border border-green-500/50 rounded-lg text-green-400"
                 >
-                  Thank you! Your message has been sent successfully. I'll get back to you soon.
+                  Thank you! Your message has been sent successfully. I will get back to you soon.
                 </motion.div>
               )}
               
