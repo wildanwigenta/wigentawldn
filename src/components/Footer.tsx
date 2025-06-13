@@ -48,7 +48,7 @@ const Footer = () => {
           >
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-xl glow">
-                WW
+                <img src="/logo.png" alt="" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-foreground font-[family-name:var(--font-plus-jakarta)]">
@@ -107,11 +107,11 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="text-gray-400">
                 <span className="text-accent-cyan">Email:</span><br />
-                wildan.wigenta@email.com
+                wildanwigenta52@gmail.com
               </p>
               <p className="text-gray-400">
                 <span className="text-accent-pink">Location:</span><br />
-                Indonesia
+                Yogyakarta, Indonesia
               </p>
             </div>
             
