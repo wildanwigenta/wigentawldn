@@ -179,7 +179,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-center mt-8 pt-8 border-t border-border/50"
         >
-          <p className="text-gray-500 text-xs">
+          {/* <p className="text-gray-500 text-xs">
             This website is open source and available on{' '}
             <a 
               href="https://github.com/wildanwigenta/portfolio" 
@@ -189,7 +189,7 @@ const Footer = () => {
             >
               GitHub
             </a>
-          </p>
+          </p> */}
         </motion.div>
       </div>
       
