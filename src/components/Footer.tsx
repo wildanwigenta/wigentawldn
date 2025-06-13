@@ -47,8 +47,8 @@ const Footer = () => {
             className="space-y-4"
           >
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-xl glow">
-                <img src="/logo.png" alt="" />
+              <div className="w-12 h-12 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-xl glow p-1.5">
+                <img src="/logo.png" width="" height="" alt="" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-foreground font-[family-name:var(--font-plus-jakarta)]">
