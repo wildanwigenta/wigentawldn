@@ -16,13 +16,13 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/wildanwigenta',
+      url: 'https://www.linkedin.com/in/wildan-wigenta-28a853274/',
       color: 'hover:text-accent-pink'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:wildan.wigenta@email.com',
+      url: 'mailto:wildanwigenta52@gmail.com',
       color: 'hover:text-accent-cyan'
     }
   ];
