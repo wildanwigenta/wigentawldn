@@ -90,14 +90,14 @@ const ContactSection = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/wildanwigenta',
+      url: 'https://www.linkedin.com/in/wildan-wigenta-28a853274/',
       color: 'hover:text-accent-pink hover:border-accent-pink',
       glow: 'hover:glow-pink'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:wildan.wigenta@email.com',
+      url: 'mailto:wildanwigenta52@gmail.com',
       color: 'hover:text-accent-cyan hover:border-accent-cyan',
       glow: 'hover:glow'
     }
@@ -154,7 +154,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
-                  <p className="text-foreground font-semibold">wildan.wigenta@email.com</p>
+                  <p className="text-foreground font-semibold">wildanwigenta52@gmail.com</p>
                 </div>
               </motion.div>
               
@@ -167,7 +167,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Location</p>
-                  <p className="text-foreground font-semibold">Indonesia</p>
+                  <p className="text-foreground font-semibold">Yogyakarta, Indonesia</p>
                 </div>
               </motion.div>
               
