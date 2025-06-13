@@ -16,13 +16,13 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/wildanwigenta',
+      url: 'https://www.linkedin.com/in/wildan-wigenta-28a853274/',
       color: 'hover:text-accent-pink'
     },
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:wildan.wigenta@email.com',
+      url: 'mailto:wildanwigenta52@gmail.com',
       color: 'hover:text-accent-cyan'
     }
   ];
@@ -47,14 +47,14 @@ const Footer = () => {
             className="space-y-4"
           >
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-xl glow">
-                WW
+              <div className="w-12 h-12 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-lg flex items-center justify-center font-bold text-white text-xl glow p-1.5">
+                <img src="/logo.png" width="" height="" alt="" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-foreground font-[family-name:var(--font-plus-jakarta)]">
                   Wildan Wigenta
                 </h3>
-                <p className="text-sm text-gray-400">Web Developer & Graphic Designer</p>
+                <p className="text-sm text-gray-400">Web Developer | Graphic Designer</p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-sm">
@@ -107,11 +107,11 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="text-gray-400">
                 <span className="text-accent-cyan">Email:</span><br />
-                wildan.wigenta@email.com
+                wildanwigenta52@gmail.com
               </p>
               <p className="text-gray-400">
                 <span className="text-accent-pink">Location:</span><br />
-                Indonesia
+                Yogyakarta, Indonesia
               </p>
             </div>
             
@@ -179,7 +179,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-center mt-8 pt-8 border-t border-border/50"
         >
-          <p className="text-gray-500 text-xs">
+          {/* <p className="text-gray-500 text-xs">
             This website is open source and available on{' '}
             <a 
               href="https://github.com/wildanwigenta/portfolio" 
@@ -189,7 +189,7 @@ const Footer = () => {
             >
               GitHub
             </a>
-          </p>
+          </p> */}
         </motion.div>
       </div>
       
