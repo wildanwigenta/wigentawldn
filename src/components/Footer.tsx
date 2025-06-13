@@ -54,7 +54,7 @@ const Footer = () => {
                 <h3 className="text-xl font-bold text-foreground font-[family-name:var(--font-plus-jakarta)]">
                   Wildan Wigenta
                 </h3>
-                <p className="text-sm text-gray-400">Web Developer & Graphic Designer</p>
+                <p className="text-sm text-gray-400">Web Developer | Graphic Designer</p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-sm">
