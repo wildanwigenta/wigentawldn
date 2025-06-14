@@ -12,24 +12,22 @@ const SkillsSection = () => {
     { name: 'Laravel', icon: <Rocket size={24} />, color: 'from-red-500 to-pink-500' },
     { name: 'Tailwind', icon: <Wind size={24} />, color: 'from-cyan-400 to-blue-500' },
   ];
-  
-  
+
   const designSkills = [
     { name: 'Figma', icon: <PenTool size={24} />, color: 'from-purple-500 to-pink-500' },
     { name: 'CorelDraw', icon: <Sparkles size={24} />, color: 'from-green-500 to-teal-500' },
     { name: 'Photoshop', icon: <Image size={24} />, color: 'from-blue-600 to-purple-600' },
     { name: 'Canva', icon: <Brush size={24} />, color: 'from-pink-500 to-rose-500' },
   ];
-  
-  
+
   const SkillCard = ({ skill, index, delay }: { skill: any, index: number, delay: number }) => {
     return (
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: delay }}
-        whileHover={{ 
-          scale: 1.05, 
+        whileHover={{
+          scale: 1.05,
           rotateY: 10,
           transition: { duration: 0.3 }
         }}
@@ -38,20 +36,20 @@ const SkillsSection = () => {
       >
         {/* Glow effect */}
         <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-xl blur-xl scale-110 from-accent-cyan to-accent-pink"></div>
-        
-        <div className="relative bg-card-bg/80 backdrop-blur-sm border border-border rounded-xl p-6 transition-all duration-300 group-hover:border-accent-cyan group-hover:shadow-2xl">
+
+        <div className="relative bg-card-bg/80 backdrop-blur-sm border border-border rounded-xl p-6 transition-all duration-300 group-hover:border-transparent group-hover:shadow-2xl">
           {/* Icon */}
           <div className="mb-4 flex justify-center">
             <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${skill.color} flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300 z-10 relative`}>
               {skill.icon}
             </div>
           </div>
-          
+
           {/* Skill name */}
           <h3 className="text-center font-semibold text-lg text-foreground transition-colors duration-300 z-10 relative">
             {skill.name}
           </h3>
-          
+
           {/* Animated border */}
           <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-accent-cyan via-accent-pink to-accent-cyan bg-[length:200%_100%] animate-pulse"></div>
@@ -61,12 +59,12 @@ const SkillsSection = () => {
       </motion.div>
     );
   };
-  
+
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 relative">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent"></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -83,7 +81,7 @@ const SkillsSection = () => {
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-accent-cyan to-accent-pink mx-auto rounded-full"></div>
         </motion.div>
-        
+
         {/* Programming Skills */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -98,19 +96,19 @@ const SkillsSection = () => {
               Programming
             </h3>
           </div>
-          
+
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
             {programmingSkills.map((skill, index) => (
-              <SkillCard 
-                key={skill.name} 
-                skill={skill} 
-                index={index} 
+              <SkillCard
+                key={skill.name}
+                skill={skill}
+                index={index}
                 delay={0.1 * index}
               />
             ))}
           </div>
         </motion.div>
-        
+
         {/* Design Skills */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -124,19 +122,19 @@ const SkillsSection = () => {
               Design
             </h3>
           </div>
-          
+
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {designSkills.map((skill, index) => (
-              <SkillCard 
-                key={skill.name} 
-                skill={skill} 
-                index={index} 
+              <SkillCard
+                key={skill.name}
+                skill={skill}
+                index={index}
                 delay={0.1 * index}
               />
             ))}
           </div>
         </motion.div>
-        
+
         {/* Additional Info */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -150,9 +148,9 @@ const SkillsSection = () => {
               Always Learning, Always Growing
             </h4>
             <p className="text-gray-300 leading-relaxed">
-               Technology evolves rapidly and so do I. I actively stay ahead of the curve by exploring the latest frameworks,
-               tools, and design trends in web development. My deep passion for continuous learning fuels a mindset of experimentation, 
-               allowing me to integrate emerging technologies seamlessly into my development and design processes.
+              Technology evolves rapidly and so do I. I actively stay ahead of the curve by exploring the latest frameworks,
+              tools, and design trends in web development. My deep passion for continuous learning fuels a mindset of experimentation,
+              allowing me to integrate emerging technologies seamlessly into my development and design processes.
             </p>
           </div>
         </motion.div>
