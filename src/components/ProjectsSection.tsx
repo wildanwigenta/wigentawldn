@@ -38,12 +38,12 @@ const ProjectsSection = () => {
     },
     {
       id: 4,
-      title: "Brand Identity Design",
-      description: "Complete brand identity design including logo, color palette, typography, and marketing materials for a tech startup.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Figma", "Photoshop", "CorelDraw", "Canva"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Informatics Student Association website",
+      description: "A responsive website for the Informatics Student Association, providing information about events, news, and resources for students.",
+      image: "",
+      technologies: ["Photoshop", "CorelDraw", "Javascript","Bootstrap"],
+      githubUrl: "https://github.com/wildanwigenta/himaforka",
+      liveUrl: "himaforka.netlify.app",
       featured: false
     },
     {
