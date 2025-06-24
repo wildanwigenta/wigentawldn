@@ -21,19 +21,19 @@ const ProjectsSection = () => {
       title: "Online Auction Website",
       description: "A responsive online auction website built with Laravel and Bootstrap CSS, providing a platform for users to create and bid on items.",
       image: "",
-      technologies: ["Laravel", "Bootstrap", "JavaScript"],
+      technologies: ["Laravel", "Bootstrap", "JavaScript", "MySQL"],
       githubUrl: "https://github.com/wildanwigenta/lelang_online",
       liveUrl: "",
       featured: false
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Laravel", "MySQL", "JavaScript", "Bootstrap"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Foundation Website",
+      description: "A responsive foundation website built with CodeIgniter and Bootstrap CSS, providing information about the foundation's mission, vision, and team.",
+      image: "",
+      technologies: ["CodeIgniter", "MySQL", "JavaScript", "Bootstrap"],
+      githubUrl: "https://github.com/wildanwigenta/yayasan",
+      liveUrl: "",
       featured: false
     },
     {
