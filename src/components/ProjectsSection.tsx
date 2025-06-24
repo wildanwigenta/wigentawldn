@@ -18,7 +18,7 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
-      title: "Lelang Online Website",
+      title: "Online Auction Website",
       description: "A responsive online auction website built with Laravel and Bootstrap CSS, providing a platform for users to create and bid on items.",
       image: "",
       technologies: ["Laravel", "Bootstrap", "JavaScript"],
