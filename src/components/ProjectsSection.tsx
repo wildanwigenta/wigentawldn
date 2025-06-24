@@ -161,6 +161,7 @@ const ProjectsSection = () => {
               <a
                 href={project.liveUrl}
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-accent-cyan to-accent-pink text-white rounded-lg text-sm hover:shadow-lg transition-all duration-300 flex-1 justify-center glow"
+                target="_blank"
               >
                 <ExternalLink size={16} />
                 Live Demo
