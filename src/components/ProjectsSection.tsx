@@ -49,7 +49,7 @@ const ProjectsSection = () => {
     {
       id: 5,
       title: "Film Review Website",
-      description: "film review website with a user-friendly interface and a responsive design, allowing users to browse and search for movies.",
+      description: "film review website with a user-friendly interface and a responsive design, allowing users to browse and search for movies. using rest-api",
       image: "",
       technologies: ["Laravel", "Bootstrap", "Rest-api", "CorelDraw"],
       githubUrl: "https://github.com/wildanwigenta/film_wei",
@@ -58,12 +58,12 @@ const ProjectsSection = () => {
     },
     {
       id: 6,
-      title: "Mobile App UI Design",
-      description: "Modern mobile application UI/UX design with intuitive navigation, clean interface, and engaging user experience.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Figma", "Photoshop", "UI/UX", "Prototyping"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Electricity Payment Website",
+      description: "A responsive website for electricity payment, providing users with a seamless payment process and payment history.",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "MySQL", "Prototyping"],
+      githubUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
+      liveUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
       featured: false
     }
   ];
