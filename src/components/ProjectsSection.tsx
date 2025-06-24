@@ -18,12 +18,12 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative design and smooth animations using Framer Motion and modern CSS techniques.",
-      image: "/api/placeholder/400/300",
-      technologies: ["React", "Framer Motion", "CSS3", "JavaScript"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Lelang Online Website",
+      description: "A responsive online auction website built with Laravel and Bootstrap CSS, providing a platform for users to create and bid on items.",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "JavaScript"],
+      githubUrl: "https://github.com/wildanwigenta/lelang_online",
+      liveUrl: "",
       featured: false
     },
     {
