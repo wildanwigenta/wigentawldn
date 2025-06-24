@@ -86,12 +86,7 @@ const ProjectsSection = () => {
           
             {/* Placeholder image with gradient */}
             <div className="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center relative">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Eye className="text-white" size={24} />
-                </div>
-                <p className="text-gray-400 text-sm">Project Preview</p>
-              </div>
+              
               
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-card-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -210,12 +205,14 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
+        <a href="https://github.com/wildanwigenta" target='_blank'>
            <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
             <span className="flex items-center gap-2">
               <Github size={20} />
               View All Projects on GitHub
             </span>
           </button>
+        </a>
         </motion.div>
       </div>
     </section>
