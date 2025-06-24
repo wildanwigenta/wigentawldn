@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       image: "",
       technologies: ["Laravel", "Bootstrap", "JavaScript", "MySQL"],
       githubUrl: "https://github.com/wildanwigenta/lelang_online",
-      liveUrl: "",
+      liveUrl: "https://github.com/wildanwigenta/lelang_online",
       featured: false
     },
     {
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       image: "",
       technologies: ["CodeIgniter", "MySQL", "JavaScript", "Bootstrap"],
       githubUrl: "https://github.com/wildanwigenta/yayasan",
-      liveUrl: "",
+      liveUrl: "https://github.com/wildanwigenta/yayasan",
       featured: false
     },
     {
