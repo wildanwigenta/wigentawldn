@@ -8,62 +8,62 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "test",
-      description: "test2",
-      image: "/logo.png",
-      technologies: ["Next.js", "Tailwind CSS", "MySQL", "Laravel"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Personal Website",
+      description: "A personal portfolio website built with Next.js and Tailwind CSS, showcasing my skills and projects.",
+      image: "",
+      technologies: ["Next.js", "Tailwind CSS", ],
+      githubUrl: "https://github.com/wildanwigenta/wigentawldn",
+      liveUrl: "wildanwigenta.vercel.app",
       featured: false
     },
     {
       id: 2,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing creative design and smooth animations using Framer Motion and modern CSS techniques.",
-      image: "/api/placeholder/400/300",
-      technologies: ["React", "Framer Motion", "CSS3", "JavaScript"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Online Auction Website",
+      description: "A responsive online auction website built with Laravel and Bootstrap CSS, providing a platform for users to create and bid on items.",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "JavaScript", "MySQL"],
+      githubUrl: "https://github.com/wildanwigenta/lelang_online",
+      liveUrl: "https://github.com/wildanwigenta/lelang_online",
       featured: false
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Laravel", "MySQL", "JavaScript", "Bootstrap"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Foundation Website",
+      description: "A responsive foundation website built with CodeIgniter and Bootstrap CSS, providing information about the foundation's mission, vision, and team.",
+      image: "",
+      technologies: ["CodeIgniter", "MySQL", "JavaScript", "Bootstrap"],
+      githubUrl: "https://github.com/wildanwigenta/yayasan",
+      liveUrl: "https://github.com/wildanwigenta/yayasan",
       featured: false
     },
     {
       id: 4,
-      title: "Brand Identity Design",
-      description: "Complete brand identity design including logo, color palette, typography, and marketing materials for a tech startup.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Figma", "Photoshop", "CorelDraw", "Canva"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Informatics Student Association website",
+      description: "A responsive website for the Informatics Student Association, providing information about events, news, and resources for students.",
+      image: "",
+      technologies: ["Photoshop", "CorelDraw", "Javascript","Bootstrap"],
+      githubUrl: "https://github.com/wildanwigenta/himaforka",
+      liveUrl: "himaforka.netlify.app",
       featured: false
     },
     {
       id: 5,
-      title: "Restaurant Website",
-      description: "A beautiful restaurant website with online reservation system, menu showcase, and location integration.",
-      image: "/api/placeholder/400/300",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Film Review Website",
+      description: "film review website with a user-friendly interface and a responsive design, allowing users to browse and search for movies. using rest-api",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "Rest-api", "CorelDraw"],
+      githubUrl: "https://github.com/wildanwigenta/film_wei",
+      liveUrl: "https://github.com/wildanwigenta/film_wei",
       featured: false
     },
     {
       id: 6,
-      title: "Mobile App UI Design",
-      description: "Modern mobile application UI/UX design with intuitive navigation, clean interface, and engaging user experience.",
-      image: "/api/placeholder/400/300",
-      technologies: ["Figma", "Photoshop", "UI/UX", "Prototyping"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Electricity Payment Website",
+      description: "A responsive website for electricity payment, providing users with a seamless payment process and payment history.",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "MySQL", "Prototyping"],
+      githubUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
+      liveUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
       featured: false
     }
   ];
@@ -86,12 +86,7 @@ const ProjectsSection = () => {
           
             {/* Placeholder image with gradient */}
             <div className="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center relative">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-accent-cyan to-accent-pink rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Eye className="text-white" size={24} />
-                </div>
-                <p className="text-gray-400 text-sm">Project Preview</p>
-              </div>
+              
               
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-card-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -161,6 +156,7 @@ const ProjectsSection = () => {
               <a
                 href={project.liveUrl}
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-accent-cyan to-accent-pink text-white rounded-lg text-sm hover:shadow-lg transition-all duration-300 flex-1 justify-center glow"
+                target="_blank"
               >
                 <ExternalLink size={16} />
                 Live Demo
@@ -209,12 +205,14 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
+        <a href="https://github.com/wildanwigenta" target='_blank'>
            <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
             <span className="flex items-center gap-2">
               <Github size={20} />
               View All Projects on GitHub
             </span>
           </button>
+        </a>
         </motion.div>
       </div>
     </section>
