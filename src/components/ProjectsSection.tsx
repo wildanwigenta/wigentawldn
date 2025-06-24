@@ -8,12 +8,12 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "test",
-      description: "test2",
-      image: "/logo.png",
-      technologies: ["Next.js", "Tailwind CSS", "MySQL", "Laravel"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Personal Website",
+      description: "A personal portfolio website built with Next.js and Tailwind CSS, showcasing my skills and projects.",
+      image: "",
+      technologies: ["Next.js", "Tailwind CSS", ],
+      githubUrl: "https://github.com/wildanwigenta/wigentawldn",
+      liveUrl: "wildanwigenta.vercel.app",
       featured: false
     },
     {
