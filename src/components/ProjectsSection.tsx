@@ -8,13 +8,13 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built with Next.js and Tailwind CSS, featuring user authentication, shopping cart, and payment integration.",
-      image: "/api/placeholder/400/300",
+      title: "test",
+      description: "test2",
+      image: "/logo.png",
       technologies: ["Next.js", "Tailwind CSS", "MySQL", "Laravel"],
       githubUrl: "#",
       liveUrl: "#",
-      featured: true
+      featured: false
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const ProjectsSection = () => {
       technologies: ["React", "Framer Motion", "CSS3", "JavaScript"],
       githubUrl: "#",
       liveUrl: "#",
-      featured: true
+      featured: false
     },
     {
       id: 3,
@@ -83,6 +83,7 @@ const ProjectsSection = () => {
         <div className="relative bg-card-bg/80 backdrop-blur-sm border border-border rounded-2xl overflow-hidden transition-all duration-500 group-hover:border-accent-cyan group-hover:shadow-2xl group-hover:scale-[1.02]">
           {/* Project Image */}
           <div className="relative h-48 sm:h-56 lg:h-64 overflow-hidden">
+          
             {/* Placeholder image with gradient */}
             <div className="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center relative">
               <div className="text-center">
@@ -208,7 +209,7 @@ const ProjectsSection = () => {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
+           <button className="group relative px-8 py-4 border-2 border-accent-cyan rounded-full font-semibold text-accent-cyan transition-all duration-300 hover:bg-accent-cyan hover:text-background hover:scale-105">
             <span className="flex items-center gap-2">
               <Github size={20} />
               View All Projects on GitHub
