@@ -48,12 +48,12 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      title: "Restaurant Website",
-      description: "A beautiful restaurant website with online reservation system, menu showcase, and location integration.",
-      image: "/api/placeholder/400/300",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Film Review Website",
+      description: "film review website with a user-friendly interface and a responsive design, allowing users to browse and search for movies.",
+      image: "",
+      technologies: ["Laravel", "Bootstrap", "Rest-api", "CorelDraw"],
+      githubUrl: "https://github.com/wildanwigenta/film_wei",
+      liveUrl: "https://github.com/wildanwigenta/film_wei",
       featured: false
     },
     {
