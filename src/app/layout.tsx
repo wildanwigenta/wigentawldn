@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Wildan Wigenta Portfolio",
     images: [
       {
-        url: "https://wildanwigenta.vercel.app/images/og-image.png", 
+        url: "https://wildanwigenta.vercel.app/images/logo.png", 
         width: 1200,
         height: 630,
         alt: "Wildan Wigenta Portfolio",
