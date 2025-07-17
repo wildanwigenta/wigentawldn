@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "Foundation Website",
       description: "A responsive foundation website built with CodeIgniter and Bootstrap CSS, providing information about the foundation's mission, vision, and team.",
-      image: "",
+      image: "/project-img/yayasan.png",
       technologies: ["CodeIgniter", "MySQL", "JavaScript", "Bootstrap"],
       githubUrl: "https://github.com/wildanwigenta/yayasan",
       liveUrl: "https://github.com/wildanwigenta/yayasan",
