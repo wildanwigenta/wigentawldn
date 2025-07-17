@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "Online Auction Website",
       description: "A responsive online auction website built with Laravel and Bootstrap CSS, providing a platform for users to create and bid on items.",
-      image: "",
+      image: "/project-img/lelang.png",
       technologies: ["Laravel", "Bootstrap", "JavaScript", "MySQL"],
       githubUrl: "https://github.com/wildanwigenta/lelang_online",
       liveUrl: "https://github.com/wildanwigenta/lelang_online",
@@ -87,7 +87,12 @@ const ProjectsSection = () => {
             {/* Placeholder image with gradient */}
             <div className="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center relative">
               
-              
+            <Image
+              src={project.image}
+              alt={project.title}
+              fill
+              className="object-cover"
+            />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-card-bg/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
