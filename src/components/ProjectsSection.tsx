@@ -40,7 +40,7 @@ const ProjectsSection = () => {
       id: 4,
       title: "Informatics Student Association website",
       description: "A responsive website for the Informatics Student Association, providing information about events, news, and resources for students.",
-      image: "",
+      image: "/project-img/himaforka.png",
       technologies: ["Photoshop", "CorelDraw", "Javascript","Bootstrap"],
       githubUrl: "https://github.com/wildanwigenta/himaforka",
       liveUrl: "himaforka.netlify.app",
