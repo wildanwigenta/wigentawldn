@@ -58,12 +58,12 @@ const ProjectsSection = () => {
     },
     {
       id: 6,
-      title: "Electricity Payment Website",
-      description: "A responsive website for electricity payment, providing users with a seamless payment process and payment history.",
-      image: "",
-      technologies: ["Laravel", "Bootstrap", "MySQL", "Prototyping"],
-      githubUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
-      liveUrl: "https://github.com/wildanwigenta/pembayaran-listrik",
+      title: "Find Your Talent Website",
+      description: "The FindYou website is a web-based platform aimed at helping users find fields that align with their passions.",
+      image: "/project-img/findyou.png",
+      technologies: ["Laravel","bootstrap", "mySQL"],
+      githubUrl: "https://github.com/wildanwigenta/findyou",
+      liveUrl: "https://github.com/wildanwigenta/findyou",
       featured: false
     }
   ];
