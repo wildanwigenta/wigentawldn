@@ -48,9 +48,9 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      title: "Film Review Website",
-      description: "film review website with a user-friendly interface and a responsive design, allowing users to browse and search for movies. using rest-api",
-      image: "",
+      title: "Review Film Website",
+      description: "Review film website with a user-friendly interface and a responsive design, allowing users to browse and search for movies. using rest-api",
+      image: "/project-img/film.png",
       technologies: ["Laravel", "Bootstrap", "Rest-api", "CorelDraw"],
       githubUrl: "https://github.com/wildanwigenta/film_wei",
       liveUrl: "https://github.com/wildanwigenta/film_wei",
