@@ -46,14 +46,15 @@ const AboutSection = () => {
               </div>
 
               {/* Tombol Lihat Sertifikat */}
-              {/* <div className="mt-6 text-center lg:text-left float-right">
+              <div className="mt-10 text-center lg:text-left float-end">
                 <a
                   href="/certificates"
                   className="inline-block px-6 py-2 text-white bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full shadow-md hover:scale-105 transition-transform duration-300"
                 >
-                  Lihat Sertifikat
+                  My Certificate
                 </a>
-              </div> */}
+              </div>
+
 
   
               {/* Floating decorative elements */}
