@@ -47,17 +47,17 @@ const AboutSection = () => {
 
             {/* Tombol Lihat Sertifikat */}
             <div className="mt-10 text-center lg:text-left float-end">
-  <a
-    href="/certificates"
-    className="relative inline-block px-8 py-3 font-medium text-white group"
-  >
-    <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-1 translate-y-1 bg-gradient-to-r from-pink-500 to-cyan-500 group-hover:-translate-x-0 group-hover:-translate-y-0 rounded-lg"></span>
-    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-600 to-pink-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-    <span className="relative flex items-center justify-center gap-2">
-      <span>My Certificate</span>
-    </span>
-  </a>
-</div>
+              <a
+                href="/certificates"
+                className="relative inline-block px-8 py-3 font-medium text-white group"
+              >
+                <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-1 translate-y-1 bg-gradient-to-r from-pink-600 to-cyan-600 group-hover:-translate-x-0 group-hover:-translate-y-0 rounded-lg"></span>
+                <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-400 to-pink-400 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                <span className="relative flex items-center justify-center gap-2">
+                  <span>My Certificate</span>
+                </span>
+              </a>
+            </div>
   
               {/* Floating decorative elements */}
               <motion.div
