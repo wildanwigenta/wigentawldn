@@ -11,14 +11,14 @@ const certificates = [
     title: 'UI/UX Design',
     src: '/certificates/uiux.jpg',
   },
-  // Tambahkan lagi sesuai kebutuhan
+  
 ];
 
 export default function CertificatesPage() {
   return (
     <main className="py-20 px-4 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-bold text-center mb-12 text-white">
-        Sertifikat Saya
+        My Certificates
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {certificates.map((cert, idx) => (
