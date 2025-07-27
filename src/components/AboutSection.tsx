@@ -45,17 +45,19 @@ const AboutSection = () => {
                 </div>
               </div>
 
-              {/* Tombol Lihat Sertifikat */}
-              <div className="mt-10 text-center lg:text-left float-end">
-                <a
-                  href="/certificates"
-                  className="inline-block px-6 py-2 text-white bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full shadow-md hover:scale-105 transition-transform duration-300"
-                >
-                  My Certificate
-                </a>
-              </div>
-
-
+            {/* Tombol Lihat Sertifikat */}
+            <div className="mt-10 text-center lg:text-left float-end">
+  <a
+    href="/certificates"
+    className="relative inline-block px-8 py-3 font-medium text-white group"
+  >
+    <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-1 translate-y-1 bg-gradient-to-r from-pink-500 to-cyan-500 group-hover:-translate-x-0 group-hover:-translate-y-0 rounded-lg"></span>
+    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-600 to-pink-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+    <span className="relative flex items-center justify-center gap-2">
+      <span>My Certificate</span>
+    </span>
+  </a>
+</div>
   
               {/* Floating decorative elements */}
               <motion.div
@@ -70,6 +72,7 @@ const AboutSection = () => {
                 className="absolute -bottom-4 -left-4 w-6 h-6 bg-accent-pink rounded-full glow-pink"
               ></motion.div>
             </div>
+
 
 
           </motion.div>
