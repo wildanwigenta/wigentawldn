@@ -45,7 +45,17 @@ const AboutSection = () => {
                 </div>
               </div>
 
-              
+              {/* Tombol Lihat Sertifikat */}
+            <div className="mt-6 text-center lg:text-left ">
+              <a
+                href="/certificates"
+                className="inline-block px-6 py-2 text-white bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full shadow-md hover:scale-105 transition-transform duration-300"
+              >
+                Lihat Sertifikat
+              </a>
+            </div>
+
+  
               {/* Floating decorative elements */}
               <motion.div
                 animate={{ rotate: 360 }}
@@ -59,6 +69,8 @@ const AboutSection = () => {
                 className="absolute -bottom-4 -left-4 w-6 h-6 bg-accent-pink rounded-full glow-pink"
               ></motion.div>
             </div>
+
+
           </motion.div>
           
           {/* Text Content */}
