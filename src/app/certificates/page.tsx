@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const certificates = [
   {
@@ -15,11 +16,22 @@ const certificates = [
 ];
 
 export default function CertificatesPage() {
+  const router = useRouter();
+
   return (
     <main className="py-20 px-4 sm:px-6 lg:px-8">
+      {/* Tombol Back */}
+      <button
+        onClick={() => router.back()}
+        className="mb-6 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition"
+      >
+        ← Kembali
+      </button>
+
       <h1 className="text-4xl font-bold text-center mb-12 text-white">
-        My Certificates
+        Sertifikat Saya
       </h1>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {certificates.map((cert, idx) => (
           <div
