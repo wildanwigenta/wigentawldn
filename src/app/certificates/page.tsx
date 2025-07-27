@@ -5,12 +5,24 @@ import { useRouter } from 'next/navigation';
 
 const certificates = [
   {
-    title: 'Frontend Web Development',
-    src: '/certificates/frontend.jpg',
+    title: 'PT Lauwba Techno Indonesia',
+    src: '/certificate/s_lauwba.jpg',
   },
   {
-    title: 'UI/UX Design',
-    src: '/certificates/uiux.jpg',
+    title: 'Google Developers',
+    src: '/certificate/s_gd.png',
+  },
+  {
+    title: 'Webinar Cyber Security',
+    src: '/certificate/s_c.png',
+  },
+  {
+    title: 'Google Developers',
+    src: '/certificate/s_gd2.png',
+  },
+  {
+    title: 'Samsung Inovation',
+    src: '/certificate/s_s.jpg',
   },
 
 ];
@@ -58,7 +70,7 @@ export default function CertificatesPage() {
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition"
         >
-          In Full →
+          All Certificate →
         </a>
       </div>
     </main>
