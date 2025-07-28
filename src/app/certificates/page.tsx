@@ -1,30 +1,29 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const certificates = [
   {
-    title: 'PT Lauwba Techno Indonesia',
-    src: '/certificate/s_lauwba.jpg',
+    title: "PT Lauwba Techno Indonesia",
+    src: "/certificate/s_lauwba.jpg",
   },
   {
-    title: 'Google Developers',
-    src: '/certificate/s_gd.png',
+    title: "Google Developers",
+    src: "/certificate/s_gd.png",
   },
   {
-    title: 'Webinar Cyber Security',
-    src: '/certificate/s_c.png',
+    title: "Webinar Cyber Security",
+    src: "/certificate/s_c.png",
   },
   {
-    title: 'Google Developers',
-    src: '/certificate/s_gd2.png',
+    title: "Google Developers",
+    src: "/certificate/s_gd2.png",
   },
   {
-    title: 'Samsung Inovation',
-    src: '/certificate/s_s.jpg',
+    title: "Samsung Inovation",
+    src: "/certificate/s_s.jpg",
   },
-
 ];
 
 export default function CertificatesPage() {
@@ -32,11 +31,13 @@ export default function CertificatesPage() {
 
   return (
     <main className="py-20 px-4 sm:px-6 lg:px-8">
-      
       <button
         onClick={() => router.back()}
         className="mb-6 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition"
-      > ← Back </button>
+      >
+        {" "}
+        ← Back{" "}
+      </button>
 
       <h1 className="text-4xl font-bold text-center mb-12 text-white">
         My Certificate
