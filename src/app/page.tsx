@@ -11,7 +11,7 @@ export default function Home() {
     <main className="relative">
       <Navigation />
 
-      {/* Main sections */}
+      {/* Main sections */} 
       <section id="home">
         <HeroSection />
       </section>
