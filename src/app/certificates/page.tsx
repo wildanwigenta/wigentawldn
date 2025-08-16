@@ -62,8 +62,7 @@ export default function CertificatesPage() {
           </div>
         ))}
       </div>
-
-      
+   
       <div className="mt-12 text-center">
         <a
           href="https://drive.google.com/drive/folders/1j_uSXCGaSjx0OPMzc9R0SWSwqpYsO2G-?usp=sharing"
