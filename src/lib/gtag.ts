@@ -1,6 +1,5 @@
 export const GA_MEASUREMENT_ID = "G-X1TEMMVG2M"; 
 
-// Tambahkan type deklarasi global untuk window.gtag
 declare global {
   interface Window {
     gtag: (...args: any[]) => void;
@@ -8,7 +7,6 @@ declare global {
   }
 }
 
-// Log pageview
 export const pageview = (url: string) => {
   if (typeof window !== "undefined" && typeof window.gtag !== "undefined") {
     window.gtag("config", GA_MEASUREMENT_ID, {
@@ -16,12 +14,12 @@ export const pageview = (url: string) => {
     });
   }
 };
-
-// Log event
 export const event = ({
   action,
   params,
-}: {
+}:
+
+{
   action: string;
   params: Record<string, any>;
 }) => {
