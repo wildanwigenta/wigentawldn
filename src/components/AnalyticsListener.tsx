@@ -26,6 +26,7 @@ import * as gtag from "../lib/gtag";
 
 //   return null;
 // }
+
 export default function AnalyticsListener() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
