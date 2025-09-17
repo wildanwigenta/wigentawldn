@@ -2,7 +2,6 @@
 
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
-import { GA_MEASUREMENT_ID } from "../lib/gtag";
 import * as gtag from "../lib/gtag";
 
 export default function AnalyticsListener() {
