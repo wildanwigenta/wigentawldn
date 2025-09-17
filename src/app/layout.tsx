@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-
 import { GA_MEASUREMENT_ID } from "../lib/gtag";
 import AnalyticsListener from "../components/AnalyticsListener"; 
 
