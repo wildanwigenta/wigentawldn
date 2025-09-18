@@ -71,7 +71,7 @@ const HeroSection = () => {
             })}>
               <span className="flex items-center gap-2">
                 <Download size={20} />
-                                Download CV
+                WILDAN CV
               </span>
             </button>
             </a>
