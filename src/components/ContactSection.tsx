@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Send, MapPin, Phone } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, MapPin, Phone, Instagram } from 'lucide-react';
 import { useState } from 'react';
 
 const ContactSection = () => {
@@ -80,6 +80,12 @@ const ContactSection = () => {
   };
   
   const socialLinks = [
+    {
+      name: 'Instagram',
+      icon: Instagram,
+      url: 'https://www.instagram.com/wigenta_wldn/',
+      color: 'hover:text-accent-pink'
+    },
     {
       name: 'GitHub',
       icon: Github,
