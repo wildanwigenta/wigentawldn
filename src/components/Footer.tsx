@@ -150,12 +150,7 @@ const Footer = () => {
             className="text-gray-400 text-sm flex items-center gap-2"
           >
             © {currentYear} Wildan Wigenta
-            {/* <motion.span
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 1, repeat: Infinity, repeatDelay: 2 }}
-            >
-              <Heart size={16} className="text-accent-pink fill-current" />
-            </motion.span> */}
+      
           </motion.p>
           
           {/* Back to Top Button */}
