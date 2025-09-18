@@ -1,12 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart, ArrowUp, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
+    {
+      name: 'Instagram',
+      icon: Instagram,
+      url: 'https://www.instagram.com/wigenta_wldn/',
+      color: 'hover:text-accent-pink'
+    },
     {
       name: 'GitHub',
       icon: Github,
