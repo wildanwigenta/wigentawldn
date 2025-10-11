@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart, ArrowUp, Instagram } from 'lucide-react';
 
 const Footer = () => {
+  
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
