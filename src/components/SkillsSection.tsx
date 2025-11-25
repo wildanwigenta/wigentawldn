@@ -158,4 +158,5 @@ const SkillsSection = () => {
     </section>
   );
 };
+
 export default SkillsSection;
