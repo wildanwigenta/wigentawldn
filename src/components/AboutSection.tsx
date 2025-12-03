@@ -147,8 +147,7 @@ const AboutSection = () => {
 
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="text-center p-4 bg-card-bg/50 rounded-lg border border-border hover:border-accent-pink transition-all duration-300"
-              >
+                className="text-center p-4 bg-card-bg/50 rounded-lg border border-border hover:border-accent-pink transition-all duration-300">
                 <div className="text-3xl font-bold text-accent-pink mb-2">
                   30+
                 </div>
