@@ -1,5 +1,4 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart, ArrowUp, Instagram } from 'lucide-react';
 
