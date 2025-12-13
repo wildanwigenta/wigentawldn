@@ -15,7 +15,6 @@ function AnalyticsContent() {
 
   return null;
 }
-
 export default function AnalyticsListener() {
   return (
     <Suspense fallback={null}>
