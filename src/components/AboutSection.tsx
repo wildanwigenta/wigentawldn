@@ -4,6 +4,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
+
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 relative">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-r from-secondary/5 to-primary/5"></div>
