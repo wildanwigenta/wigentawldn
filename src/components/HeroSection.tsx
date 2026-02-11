@@ -60,7 +60,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
           >
-            <a href="/Wildan_Wigenta-CV.pdf" target="_blank"> 
+            <a href="/cv.pdf" target="_blank"> 
             <button className="group relative px-8 py-4 bg-gradient-to-r from-accent-cyan to-accent-pink rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 glow hover:shadow-2xl "   
             onClick={() => gtag.event({
                 action: "download_cv",
