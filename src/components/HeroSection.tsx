@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Download, Mail, Github, Linkedin } from 'lucide-react';
-import Image from 'next/image';
 import * as gtag from "@/lib/gtag";
 
 const HeroSection = () => {
