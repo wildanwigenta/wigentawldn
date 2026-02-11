@@ -24,6 +24,10 @@ const certificates = [
     title: "Samsung Inovation",
     src: "/certificate/s_s.jpg",
   },
+  {
+    title: "PT Agenzi Digital Mandiri",
+    src: "/certificate/s_ag.jpeg",
+  },
 ];
 
 export default function CertificatesPage() {
@@ -36,7 +40,7 @@ export default function CertificatesPage() {
         className="mb-6 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition"
       >
         {" "}
-        ← Back{" "}
+         Back{" "}
       </button>
 
       <h1 className="text-4xl font-bold text-center mb-12 text-white">
