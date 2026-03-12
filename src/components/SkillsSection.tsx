@@ -1,15 +1,15 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Globe, Palette, Zap, Database, Rocket, Wind, PenTool, Sparkles, Image, Brush } from 'lucide-react';
+import { Code, Globe, Palette, Zap, Database, Rocket, Wind, PenTool, Sparkles, Image, Brush, Atom, Server } from 'lucide-react';
 
 const SkillsSection = () => {
   const programmingSkills = [
-    { name: 'HTML', icon: <Globe size={24} />, color: 'from-orange-500 to-red-500' },
-    { name: 'CSS', icon: <Palette size={24} />, color: 'from-blue-500 to-cyan-500' },
-    { name: 'JavaScript', icon: <Zap size={24} />, color: 'from-yellow-500 to-orange-500' },
-    { name: 'MySQL', icon: <Database size={24} />, color: 'from-blue-600 to-blue-800' },
     { name: 'Laravel', icon: <Rocket size={24} />, color: 'from-red-500 to-pink-500' },
+    { name: 'Nodejs', icon: <Server size={24} />, color: 'from-green-500 to-emerald-700' },
+    { name: 'MySQL', icon: <Database size={24} />, color: 'from-blue-600 to-blue-800' },
+    { name: 'PostgreSQL', icon: <Database size={24} />, color: 'from-indigo-400 to-indigo-600' },
+    { name: 'Reactjs', icon: <Atom size={24} />, color: 'from-cyan-400 to-blue-600' },
     { name: 'Tailwind', icon: <Wind size={24} />, color: 'from-cyan-400 to-blue-500' },
   ];
 
